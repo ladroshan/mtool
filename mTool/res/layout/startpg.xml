@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <CheckBox
+        android:id="@+id/last_page"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/last_page"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    
+    <TextView 
+        android:id="@+id/tvsp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_below="@id/last_page"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/select"/>
+    
+    <RelativeLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    android:id="@+id/csp"
+	    android:layout_marginBottom="20dp"
+	    android:layout_below="@id/tvsp">
+	    
+	    <TextView 
+	        android:id="@+id/sp"
+        	android:textIsSelectable="false"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#045482"
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center"
+	        android:textSize="50sp"
+	        android:layout_margin="10dp"/>
+	    
+	    <Button
+	        android:id="@+id/spm"
+	        android:layout_height="wrap_content"
+	        android:layout_width="200dp"
+	        android:background="@drawable/button"
+	        android:text="@string/lt"
+	        android:gravity="center"
+	        android:textSize="50sp"
+	        android:layout_alignTop="@id/sp"
+	        android:layout_alignBottom="@id/sp"
+	        android:layout_toLeftOf="@id/sp"/>
+	    	    
+	    <Button
+	        android:id="@+id/spp"
+	        android:layout_height="wrap_content"
+	        android:layout_width="200dp"
+	        android:background="@drawable/button"
+	        android:text="@string/gt"
+	        android:gravity="center"
+	        android:textSize="50sp"
+	        android:layout_alignTop="@id/sp"
+	        android:layout_alignBottom="@id/sp"
+	        android:layout_toRightOf="@id/sp"/>
+	    
+	</RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/csp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:background="#60888888"
+            android:layout_alignParentTop="true"/>
+        <View
+            android:id="@+id/mitte"
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dip"
+            android:layout_marginTop="4dip"
+            android:background="#60888888"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/button"
+            android:text="@android:string/cancel"
+            android:onClick="close" 
+            android:layout_toLeftOf="@id/mitte"
+            android:layout_alignParentBottom="true"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/button"
+            android:text="@android:string/ok"
+            android:layout_toRightOf="@id/mitte"
+            android:onClick="doit" 
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    
+</RelativeLayout>

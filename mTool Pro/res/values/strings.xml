@@ -1,0 +1,256 @@
+<resources>
+   
+    <string name="app_name">mTool Pro</string>
+    <string name="app_label">mTool</string>
+    <string name="settings">Settings</string>
+    <string name="add">Add</string>
+    <string name="close">Close</string>
+    <string name="help">Help</string>
+    <string name="general_prefcat">General</string>
+	<string name="appearance_pref_title">Appearance</string>
+	<string name="appearance_pref_summary">Change appearance</string>
+	<string name="background_prefcat">Wallpaper</string>
+	<string name="defaultbg_pref_title">Default</string>
+	<string name="defaultbg_pref_summary">Show default wallpaper.</string>
+	<string name="custombg_pref_title">Custom</string>
+	<string name="custombg_pref_summary">Use image from phone as wallpaper.</string>
+	<string name="alpha_pref_title">Transparency</string>
+	<string name="bgalpha_pref_summary">Change the transparency of the background image.</string>
+	<string name="wallpaper_404">Wallpaper file not found!</string>
+	<string name="itemstyle_prefcat">Items</string>
+	<string name="theme_pref_title">Item Theme</string>
+	<string name="icsize_pref_title">Icon size</string>
+	<string name="icsize_pref_summary">Change the size of the icons.</string>
+	<string name="itemtext_pref_title">Item titles</string>
+	<string name="itemtext_pref_summary">Show the titles of the items.</string>
+	<string name="italpha_pref_summary">Change the transparency of the items.</string>
+	<string name="other_prefcat">Other</string>
+	<string name="gridsize_pref_title">Size of the screen</string>
+	<string name="gridsize_note">Attention! A change will delete all your Items and pages!</string>
+	<string name="mainbg_pref_title">Show Pages</string>
+	<string name="mainbg_pref_summary">Make the pages visible.</string>
+	<string name="dad_hint_pref_title">Drag &amp; Drop hint</string>
+	<string name="dad_hint_pref_summary">Show a hint to show where the Item will be placed.</string>
+	<string name="quickstart_pref_title">Quick Start</string>
+	<string name="quickstart_pref_summary">Load mTool ultra-fast on start-up.</string>
+	<string name="startpg_pref_title">Start Page</string>
+	<string name="startpg_pref_summary">Select the start page. (experimental)</string>
+	<string name="autobr_pref_title">Auto-Brightness on Start</string>
+	<string name="autobr_pref_summary">Automatically enable auto-brightness mode when mTool starts.</string>
+	<string name="statussc_pref_title">Status Bar Shortcut</string>
+	<string name="statussc_pref_summary">Show a shortcut to mTool in the status bar.</string>
+<!-- 	<string name="switchnclose_pref_title">Switch\'n\'Close</string> -->
+<!-- 	<string name="switchnclose_pref_summary">Immediately close mTool after switching a setting.</string> -->
+<!-- 	<string name="backup_prefcat">Backup &amp; Restore</string> -->
+<!-- 	<string name="backup_pref_title">Backup</string> -->
+<!-- 	<string name="backup_pref_summary">Make a backup.</string> -->
+<!-- 	<string name="restore_pref_title">Restore</string> -->
+<!-- 	<string name="restore_pref_summary">Restore from backup.</string> -->
+	<string name="reset_pref_title">Reset</string>
+	<string name="reset_pref_summary">Reset everything.</string>
+	<string name="about_prefcat">Help</string>
+	<string name="info_pref_title">About</string>
+	<string name="info_pref_summary">About mTool v</string>
+<!-- 	<string name="backup_note">Make a full backup? This will delete any previous backup!</string> -->
+	<string name="backup_ok">Backup successful!</string>
+	<string name="backup_not_ok">Backup not successful!</string>
+<!-- 	<string name="restore_note">Restore all data from backup?</string> -->
+<!-- 	<string name="no_backup">There aren\'t any backups to restore from!</string> -->
+	<string name="reset_note">Are you sure to delete all user data?</string>
+	<string name="profiles">Profiles</string>
+	<string name="npname">Profile Name</string>
+	<string name="plane">Airplane mode</string>
+	<string name="real_plane">Real plane mode</string>
+	<string name="delete_plane_note">Attention!\nYou are about to delete the Profile \'Airplane mode\'. 
+	   	You can recreate it, by creating a new Profile with the name Airplane mode.</string>
+	<string name="pstyle">style</string>
+	<string name="pnerror">Please enter a (different) name.</string>
+	<string name="pactivate">Activate</string>
+	<string name="quick">Quick</string>
+	<string name="size">Choose size</string>
+	<string name="item">Choose item</string>
+	<string name="AddItem">Add Item</string>
+	<string name="next">Next</string>
+	<string name="back">Back</string>
+	<string name="hoehe">Height</string>
+	<string name="breite">Width</string>
+	<string name="all">All</string>
+	<string name="lt">&lt;</string>
+	<string name="gt">&gt;</string>
+	<string name="last_page">None</string>
+	<string name="select">Select</string>
+	<string name="no_place">There is no place for an item of this size on the current page!</string>
+	<string name="choose">Choose</string>
+	<string name="info">info</string>
+	<string name="app">App</string>
+	<string name="uhr">Clock</string>
+	<string name="wifi">WiFi</string>
+	<string name="bluetooth">Bluetooth</string>
+	<string name="gps">GPS</string>
+	<string name="nfc">NFC</string>
+	<string name="timeout">Timeout</string>
+	<string name="timeout_alwayson">Always on</string>
+	<string name="volume">Volumes</string>
+	<string name="volume_silent">Silent</string>
+	<string name="volume_vibration">Vibration</string>
+	<string name="data">Mobile Data</string>
+	<string name="rotation">Rotation</string>
+	<string name="keyguard">Keyguard</string>
+	<string name="torch">Torch</string>
+	<string name="no_torch">Your device does not support this feature!</string>
+<!-- 	<string name="screen">Screen</string> -->
+<!-- 	<string name="shortcut">Shortcut</string> -->
+	<string name="battery">Battery</string>
+	<string name="brightness">Brightness</string>
+	<string name="brightness_auto">Auto-Brightness</string>
+	<string name="hotspot">Hotspot</string>
+	<string name="sync">Auto-sync</string>
+	
+    <string-array name="add_array">
+        <item>Add Item</item>
+        <item>Add Page</item>
+        <item>Remove Page</item>
+        <item>Profiles</item>
+        <item>Quick</item>
+    </string-array>
+    
+    <string-array name="volumes_array">
+        <item>Normal</item>
+        <item>Vibrate</item>
+        <item>Silent</item>
+    </string-array>
+    
+    <string-array name="timeout_array">
+        <item>Always on</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>1m</item>
+        <item>2m</item>
+        <item>5m</item>
+        <item>10m</item>
+        <item>30m</item>
+    </string-array>
+    
+    <string-array name="brightness_array">
+        <item>Automatic</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    
+    <string-array name="pitemlc">
+        <item>Activate</item>
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+    
+    <string-array name="theme">
+        <item name="dark">Dark + Cyan</item>
+        <item name="light">Light + Cyan</item>
+        <item name="dark_green">Dark + Green</item>
+        <item name="light_green">Light + Green</item>
+        <item name="dark_blue">Dark + Blue</item>
+        <item name="light_blue">Light + Blue</item>
+        <item name="dark_yellow">Dark + Yellow</item>
+        <item name="light_yellow">Light + Yellow</item>
+        <item name="dark_orange">Dark + Orange</item>
+        <item name="light_orange">Light + Orange</item>
+        <item name="dark_pink">Dark + Pink</item>
+        <item name="light_pink">Light + Pink</item>
+        <item name="dark_red">Dark + Red</item>
+        <item name="light_red">Light + Red</item>
+        <item name="dark_white">Dark + White</item>
+        <item name="light_black">Light + Black</item>
+    </string-array>
+    
+    <string-array name="theme_values">
+        <item name="dark">dark</item>
+        <item name="light">light</item>
+        <item name="dark_green">dark_green</item>
+        <item name="light_green">light_green</item>
+        <item name="dark_blue">dark_blue</item>
+        <item name="light_blue">light_blue</item>
+        <item name="dark_yellow">dark_yellow</item>
+        <item name="light_yellow">light_yellow</item>
+        <item name="dark_orange">dark_orange</item>
+        <item name="light_orange">light_orange</item>
+        <item name="dark_pink">dark_pink</item>
+        <item name="light_pink">light_pink</item>
+        <item name="dark_red">dark_red</item>
+        <item name="light_red">light_red</item>
+        <item name="dark_white">dark_white</item>
+        <item name="light_black">light_black</item>
+    </string-array>
+    
+    <string-array name="colors">
+        <item name="cyan">Cyan</item>
+        <item name="green">Green</item>
+        <item name="blue">Blue</item>
+        <item name="yellow">Yellow</item>
+        <item name="orange">Orange</item>
+        <item name="pink">Pink</item>
+        <item name="red">Red</item>
+        <item name="wb">White/Black</item>
+    </string-array>
+
+    <integer-array name="colors_int">
+        <item name="cyan">0xff00ffff</item>
+        <item name="green">0xff00ff00</item>
+        <item name="blue">0xff0000ff</item>
+        <item name="yellow">0xffffff00</item>
+        <item name="orange">0xffff8800</item>
+        <item name="pink">0xffff00ff</item>
+        <item name="red">0xffff0000</item>
+        <item name="wb">0xff888888</item>
+    </integer-array>
+    
+    <string-array name="onoff_array">
+        <item>Nothing</item>
+        <item>Deactivated</item>
+        <item>Activated</item>
+    </string-array>
+    
+    <string-array name="ptimeout_array">
+        <item>Nothing</item>
+        <item>Always on</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>1m</item>
+        <item>2m</item>
+        <item>5m</item>
+        <item>10m</item>
+        <item>30m</item>
+    </string-array>
+    
+    <string-array name="pbrightness_array">
+        <item>Nothing</item>
+        <item>Automatic</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    
+    <string-array name="pvolumes_array">
+        <item>Nothing</item>
+        <item>Normal</item>
+        <item>Vibrate</item>
+        <item>Silent</item>
+    </string-array>
+    
+    <string-array name="gridsize">
+        <item name="3x3">3x3</item>
+        <item name="3x4">3x4</item>
+        <item name="4x4">4x4</item>
+        <item name="4x5">4x5</item>
+        <item name="5x5">5x5</item>
+    </string-array>
+    
+    <string-array name="gridsize_values">
+        <item name="3x3">3x3</item>
+        <item name="3x4">3x4</item>
+        <item name="4x4">4x4</item>
+        <item name="4x5">4x5</item>
+        <item name="5x5">5x5</item>
+    </string-array>
+	
+</resources>

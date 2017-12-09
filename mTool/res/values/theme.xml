@@ -1,0 +1,4 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="theme" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/animations</item>    </style>
+</resources>

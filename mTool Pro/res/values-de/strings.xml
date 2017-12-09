@@ -1,0 +1,256 @@
+<resources>
+    
+    <string name="app_name">mTool Pro</string>
+    <string name="app_label">mTool</string>
+    <string name="settings">Einstellungen</string>
+    <string name="add">Hinzufügen</string>
+    <string name="close">Schließen</string>
+    <string name="help">Hilfe</string>
+    <string name="general_prefcat">Allgemein</string>
+	<string name="appearance_pref_title">Aussehen</string>
+	<string name="appearance_pref_summary">Aussehen anpassen.</string>
+	<string name="background_prefcat">Hintergrundbild</string>
+	<string name="defaultbg_pref_title">Standard</string>
+	<string name="defaultbg_pref_summary">Zeige Standard Hintergrundbild.</string>
+	<string name="custombg_pref_title">Eigenes</string>
+	<string name="custombg_pref_summary">Benutze eigenes Bild vom Telefon.</string>
+	<string name="alpha_pref_title">Transparenz</string>
+	<string name="bgalpha_pref_summary">Ändere die Transparenz des Hintergrundbildes.</string>
+	<string name="wallpaper_404">Hintergrundbild wurde nicht gefunden.</string>
+	<string name="itemstyle_prefcat">Widgets</string>
+	<string name="theme_pref_title">Widget Thema</string>
+	<string name="icsize_pref_title">Symbolgröße</string>
+	<string name="icsize_pref_summary">Ändere die Größe der Symbole.</string>
+	<string name="itemtext_pref_title">Widget Titel</string>
+	<string name="itemtext_pref_summary">Zeig die Titel der Widgets.</string>
+	<string name="italpha_pref_summary">Ändere die Transparenz der Widgets</string>
+	<string name="other_prefcat">Anderes</string>
+	<string name="gridsize_pref_title">Größe des Rasters</string>
+	<string name="gridsize_note">Achtung! eine Änderung wird alle deine Widgets entfernen!</string>
+	<string name="mainbg_pref_title">Zeig die Seiten</string>
+	<string name="mainbg_pref_summary">Mach die Seiten sichtbar.</string>
+	<string name="dad_hint_pref_title">Drag &amp; Drop Hilfe</string>
+	<string name="dad_hint_pref_summary">Markiere das Feld, wo das Widget landen wird.</string>
+	<string name="quickstart_pref_title">Schnellstart</string>
+	<string name="quickstart_pref_summary">Starte mTool noch schneller.</string>
+	<string name="startpg_pref_title">Start Seite</string>
+	<string name="startpg_pref_summary">Wähle die Start Seite aus. (experimentell)</string>
+	<string name="autobr_pref_title">Auto-Helligkeit beim Start</string>
+	<string name="autobr_pref_summary">Ändere die Helligkeit zu Automatisch wenn mTool startet.</string>
+	<string name="statussc_pref_title">Benachrichtigungsleisten Verknüpfung</string>
+	<string name="statussc_pref_summary">Zeige eine Verknüpfung zu mTool in der Beachrichtigungsleiste</string>
+<!-- 	<string name="switchnclose_pref_title">Switch\'n\'Close</string> -->
+<!-- 	<string name="switchnclose_pref_summary">Schließe mTool direkt nachdem eine Einstellung geändert wurde</string> -->
+<!-- 	<string name="backup_prefcat">Sichern &amp; Wiederherstellen</string> -->
+<!-- 	<string name="backup_pref_title">Sicherung</string> -->
+<!-- 	<string name="backup_pref_summary">Mach eine Sicherung.</string> -->
+<!-- 	<string name="restore_pref_title">Wiederherstellen</string> -->
+<!-- 	<string name="restore_pref_summary">Stelle von einer Sicherung wieder her.</string> -->
+	<string name="reset_pref_title">Zurücksetzen</string>
+	<string name="reset_pref_summary">Setze alles zurück.</string>
+	<string name="about_prefcat">Hilfe</string>
+	<string name="info_pref_title">Über</string>
+	<string name="info_pref_summary">Über mTool v</string>
+<!-- 	<string name="backup_note">Mach eine komplette Sicherung? Dies wird alle älteren Sicherungen enfernen</string> -->
+	<string name="backup_ok">Sicherung erfolgreich!</string>
+	<string name="backup_not_ok">Sicherung nicht erfolgreich!</string>
+<!-- 	<string name="restore_note">Alle Daten von Sicherung wiederherstellen?</string> -->
+<!-- 	<string name="no_backup">Es gibt keine Sicherungen!</string> -->
+	<string name="reset_note">Sind Sie sich sicher dass Sie alle Daten zurücksetzen möchten?</string>
+	<string name="profiles">Profile</string>
+	<string name="npname">Profil Name</string>
+	<string name="plane">Flugmodus</string>
+	<string name="real_plane">Echter Flugmodus</string>
+	<string name="delete_plane_note">Achtung!\nSie sind dabei, das Profil \'Flugmodus\' zu löschen.
+	   	Sie können es neu erstellen, indem Sie ein neues Profil mit dem Namen Flugmodus erstellen.</string>
+	<string name="pstyle">Stil</string>
+	<string name="pnerror">Bitte einen (anderen) Namen eingeben.</string>
+	<string name="pactivate">Aktivieren</string>
+	<string name="quick">Quick</string>
+	<string name="size">Größe auswählen</string>
+	<string name="item">Widget auswählen</string>
+	<string name="AddItem">Widget hinzufügen</string>
+	<string name="next">Weiter</string>
+	<string name="back">Zurück</string>
+	<string name="hoehe">Höhe</string>
+	<string name="breite">Breite</string>
+	<string name="all">Alle</string>
+	<string name="lt">&lt;</string>
+	<string name="gt">&gt;</string>
+	<string name="last_page">Keine</string>
+	<string name="select">Auswählen</string>
+	<string name="no_place">Auf dieser Seite ist kein Platz für ein Item mit dieser Größe!</string>
+	<string name="choose">Auswählen</string>
+	<string name="info">info</string>
+	<string name="app">App</string>
+	<string name="uhr">Uhr</string>
+	<string name="wifi">WLAN</string>
+	<string name="bluetooth">Bluetooth</string>
+	<string name="gps">GPS</string>
+	<string name="nfc">NFC</string>
+	<string name="timeout">Bildschirm-Auszeit</string>
+	<string name="timeout_alwayson">Immer an</string>
+	<string name="volume">Lautstärke</string>
+	<string name="volume_silent">Stumm</string>
+	<string name="volume_vibration">Vibration</string>
+	<string name="data">Mobile Daten</string>
+	<string name="rotation">Rotation</string>
+	<string name="keyguard">Sperrbildschirm</string>
+	<string name="torch">Taschenlampe</string>
+	<string name="no_torch">Ihr Gerät unterstützt diese Funktion leider nicht!</string>
+<!-- 	<string name="screen">Bildschirm</string> -->
+<!-- 	<string name="shortcut">Verknüpfung</string> -->
+	<string name="battery">Batterie</string>
+	<string name="brightness">Helligkeit</string>
+	<string name="brightness_auto">Auto-Helligkeit</string>
+	<string name="hotspot">Hotspot</string>
+	<string name="sync">Auto-Synchronisation</string>
+	
+    <string-array name="add_array">
+        <item>Widget hinzufügen</item>
+        <item>Seite hinzufügen</item>
+        <item>Seite entfernen</item>
+        <item>Profile</item>
+        <item>Quick</item>
+    </string-array>
+    
+    <string-array name="volumes_array">
+        <item>Normal</item>
+        <item>Vibration</item>
+        <item>Stumm</item>
+    </string-array>
+    
+    <string-array name="timeout_array">
+        <item>Immer an</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>1m</item>
+        <item>2m</item>
+        <item>5m</item>
+        <item>10m</item>
+        <item>30m</item>
+    </string-array>
+    
+    <string-array name="brightness_array">
+        <item>Automatisch</item>
+        <item>Dunkel</item>
+        <item>Medium</item>
+        <item>Hell</item>
+    </string-array>
+    
+    <string-array name="pitemlc">
+        <item>Aktivieren</item>
+        <item>Ändern</item>
+        <item>Löschen</item>
+    </string-array>
+    
+    <string-array name="theme">
+        <item name="dark">Dunkel + Cyan</item>
+        <item name="light">Hell + Cyan</item>
+        <item name="dark_green">Dunkel + Grün</item>
+        <item name="light_green">Hell + Grün</item>
+        <item name="dark_blue">Dunkel + Blau</item>
+        <item name="light_blue">Hell + Blau</item>
+        <item name="dark_yellow">Dunkel + Gelb</item>
+        <item name="light_yellow">Hell + Gelb</item>
+        <item name="dark_orange">Dunkel + Orange</item>
+        <item name="light_orange">Hell + Orange</item>
+        <item name="dark_pink">Dunkel + Pink</item>
+        <item name="light_pink">Hell + Pink</item>
+        <item name="dark_red">Dunkel + Rot</item>
+        <item name="light_red">Hell + Rot</item>
+        <item name="dark_white">Dunkel + Weiß</item>
+        <item name="light_black">Hell + Schwarz</item>
+    </string-array>
+    
+    <string-array name="theme_values">
+        <item name="dark">dark</item>
+        <item name="light">light</item>
+        <item name="dark_green">dark_green</item>
+        <item name="light_green">light_green</item>
+        <item name="dark_blue">dark_blue</item>
+        <item name="light_blue">light_blue</item>
+        <item name="dark_yellow">dark_yellow</item>
+        <item name="light_yellow">light_yellow</item>
+        <item name="dark_orange">dark_orange</item>
+        <item name="light_orange">light_orange</item>
+        <item name="dark_pink">dark_pink</item>
+        <item name="light_pink">light_pink</item>
+        <item name="dark_red">dark_red</item>
+        <item name="light_red">light_red</item>
+        <item name="dark_white">dark_white</item>
+        <item name="light_black">light_black</item>
+    </string-array>
+    
+    <string-array name="colors">
+        <item name="cyan">Cyan</item>
+        <item name="green">Grün</item>
+        <item name="blue">Blau</item>
+        <item name="yellow">Gelb</item>
+        <item name="orange">Orange</item>
+        <item name="pink">Pink</item>
+        <item name="red">Rot</item>
+        <item name="wb">Weiß/Schwarz</item>
+    </string-array>
+
+    <integer-array name="colors_int">
+        <item name="cyan">0xff00ffff</item>
+        <item name="green">0xff00ff00</item>
+        <item name="blue">0xff0000ff</item>
+        <item name="yellow">0xffffff00</item>
+        <item name="orange">0xffff8800</item>
+        <item name="pink">0xffff00ff</item>
+        <item name="red">0xffff0000</item>
+        <item name="wb">0xff888888</item>
+    </integer-array>
+    
+    <string-array name="onoff_array">
+        <item>Nichts</item>
+        <item>Deaktiviert</item>
+        <item>Aktiviert</item>
+    </string-array>
+    
+    <string-array name="ptimeout_array">
+        <item>Nichts</item>
+        <item>Immer an</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>1m</item>
+        <item>2m</item>
+        <item>5m</item>
+        <item>10m</item>
+        <item>30m</item>
+    </string-array>
+    
+    <string-array name="pbrightness_array">
+        <item>Nichts</item>
+        <item>Automatisch</item>
+        <item>Dunkel</item>
+        <item>Medium</item>
+        <item>Hell</item>
+    </string-array>
+    
+    <string-array name="pvolumes_array">
+        <item>Nichts</item>
+        <item>Normal</item>
+        <item>Vibration</item>
+        <item>Stumm</item>
+    </string-array>
+    
+    <string-array name="gridsize">
+        <item name="3x3">3x3</item>
+        <item name="3x4">3x4</item>
+        <item name="4x4">4x4</item>
+        <item name="4x5">4x5</item>
+        <item name="5x5">5x5</item>
+    </string-array>
+    
+    <string-array name="gridsize_values">
+        <item name="3x3">3x3</item>
+        <item name="3x4">3x4</item>
+        <item name="4x4">4x4</item>
+        <item name="4x5">4x5</item>
+        <item name="5x5">5x5</item>
+    </string-array>
+	
+</resources>

@@ -1,0 +1,59 @@
+<resources>
+   
+    <string name="app_name">mTool Profiles</string>
+    <string name="app_label">mTool Profiles</string>
+	<string name="npname">Profil Name</string>
+	<string name="pnerror">Bitte einen (anderen) Namen eingeben.</string>
+	<string name="pactivate">Aktivieren</string>
+	<string name="wifi">WLAN</string>
+	<string name="bluetooth">Bluetooth</string>
+	<string name="gps">GPS</string>
+	<string name="nfc">NFC</string>
+	<string name="timeout">Bildschirm-Auszeit</string>
+	<string name="volume">Lautstärke</string>
+	<string name="data">Mobile Daten</string>
+	<string name="rotation">Rotation</string>
+	<string name="keyguard">Sperrbildschirm</string>
+	<string name="brightness">Helligkeit</string>
+	<string name="hotspot">Hotspot</string>
+	<string name="sync">Auto-Synchronisation</string>
+	<string name="plane">Flugmodus</string>
+	<string name="real_plane">Echter Flugmodus</string>
+	<string name="neu">Neu</string>
+	<string name="hold_to_edit">Gedrückt halten zum ändern</string>
+	<string name="exit_click">Klicken zum Beenden</string>
+    
+    <string-array name="onoff_array">
+        <item>Nichts</item>
+        <item>Deaktiviert</item>
+        <item>Aktiviert</item>
+    </string-array>
+    
+    <string-array name="ptimeout_array">
+        <item>Nichts</item>
+        <item>Immer an</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>1m</item>
+        <item>2m</item>
+        <item>5m</item>
+        <item>10m</item>
+        <item>30m</item>
+    </string-array>
+    
+    <string-array name="pbrightness_array">
+        <item>Nichts</item>
+        <item>Automatisch</item>
+        <item>Dunkel</item>
+        <item>Medium</item>
+        <item>Hell</item>
+    </string-array>
+    
+    <string-array name="pvolumes_array">
+        <item>Nichts</item>
+        <item>Normal</item>
+        <item>Vibration</item>
+        <item>Stumm</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,164 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <TextView 
+        android:id="@+id/aitop"
+        android:textIsSelectable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textSize="32sp"/>
+    <View
+        android:id="@+id/aitopview"
+        android:layout_below="@id/aitop"
+		android:layout_width="match_parent"
+		android:layout_height="1dip"
+		android:layout_marginLeft="4dip"
+		android:layout_marginRight="4dip"
+		android:background="#60888888"/>
+    
+    <RelativeLayout
+        android:id="@+id/aibottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:background="#60888888"
+            android:layout_alignParentTop="true"/>
+        <View
+            android:id="@+id/mitte"
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dip"
+            android:layout_marginTop="4dip"
+            android:background="#60888888" 
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/aiback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/mitte"
+            android:background="@drawable/button"
+            android:text="@android:string/cancel" 
+            android:layout_alignParentBottom="true"/>
+        <Button
+            android:id="@+id/ainext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/button"
+            android:text="@android:string/ok" 
+            android:layout_alignParentBottom="true" 
+            android:layout_toRightOf="@id/mitte"/>
+    </RelativeLayout>
+    
+    <ScrollView 
+        android:id="@+id/aisv"
+    	android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/aitopview"
+        android:layout_above="@id/aibottom">
+	    
+	    <LinearLayout 
+		    android:id="@+id/aiitem"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical">
+		</LinearLayout> 
+		
+	</ScrollView> 
+	
+    <RelativeLayout 
+	    android:id="@+id/aioption"
+	    android:layout_below="@id/aitopview"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@id/aibottom">
+        
+        <ListView
+	        android:id="@+id/ailv"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+	    android:id="@+id/aisize"
+	    android:layout_below="@id/aitopview"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    android:layout_above="@id/aibottom">
+	    
+        <Spinner 
+            android:id="@+id/aiwh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"/>
+
+        <TextView 
+	        android:id="@+id/tvaib"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center"
+	        android:layout_below="@id/aiwh"
+	        android:textSize="20sp"
+	        android:layout_marginTop="20dp"
+	        android:text="@string/breite"/>
+	    
+	    <TextView 
+	        android:id="@+id/aib"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+        	android:textIsSelectable="false"
+	        android:textColor="#045482"
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center"
+	        android:textSize="50sp"
+	        android:layout_below="@id/tvaib"
+	        android:layout_margin="5dp"/>
+	    
+	    <TextView 
+	        android:id="@+id/tvaih"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center"
+	        android:layout_marginTop="20dp"
+	        android:textSize="20sp"
+	        android:text="@string/hoehe"
+	        android:layout_below="@id/aib"/>
+	    
+	    <TextView 
+	        android:id="@+id/aih"
+        	android:textIsSelectable="false"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#045482"
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center"
+	        android:textSize="50sp"
+	        android:layout_below="@id/tvaih"
+	        android:layout_marginTop="5dp"/>
+	    
+	</RelativeLayout>
+    
+</RelativeLayout>

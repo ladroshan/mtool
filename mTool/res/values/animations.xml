@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="animations">
+	    <item name="android:activityOpenEnterAnimation">@anim/zoom_enter</item>
+	    <item name="android:activityOpenExitAnimation">@anim/zoom_exit</item>
+	    <item name="android:activityCloseEnterAnimation">@anim/zoom_enter</item>
+	    <item name="android:activityCloseExitAnimation">@anim/zoom_exit</item>
+	    <item name="android:taskOpenEnterAnimation">@anim/zoom_enter</item>
+	    <item name="android:taskOpenExitAnimation">@anim/zoom_exit</item>
+	    <item name="android:taskCloseEnterAnimation">@anim/zoom_enter</item>
+	    <item name="android:taskCloseExitAnimation">@anim/zoom_exit</item>
+	    <item name="android:taskToFrontEnterAnimation">@anim/zoom_enter</item>
+	    <item name="android:taskToFrontExitAnimation">@anim/zoom_exit</item>
+	    <item name="android:taskToBackEnterAnimation">@anim/zoom_enter</item>
+	    <item name="android:taskToBackExitAnimation">@anim/zoom_exit</item>
+    </style>
+</resources>

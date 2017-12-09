@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <RelativeLayout
+        android:id="@+id/qbottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:background="#60888888"
+            android:layout_alignParentTop="true"/>
+        <Button
+            android:id="@+id/qback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/button"
+            android:text="@android:string/cancel" 
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    
+    <ScrollView 
+        android:id="@+id/qsv"
+    	android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_above="@id/qbottom">
+	    
+	    <LinearLayout 
+		    android:id="@+id/qitems"
+		    android:orientation="vertical"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content">
+		</LinearLayout> 
+		
+	</ScrollView> 
+	
+</RelativeLayout>

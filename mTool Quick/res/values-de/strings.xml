@@ -1,0 +1,23 @@
+﻿<resources>
+   
+    <string name="app_name">mTool Quick</string>
+    <string name="app_label">mTool Quick</string>
+	<string name="wifi">WLAN</string>
+	<string name="bluetooth">Bluetooth</string>
+	<string name="gps">GPS</string>
+	<string name="nfc">NFC</string>
+	<string name="timeout">Bildschirm-Auszeit</string>
+	<string name="volume">Lautstärke</string>
+	<string name="data">Mobile Daten</string>
+	<string name="rotation">Rotation</string>
+	<string name="keyguard">Sperrbildschirm</string>
+	<string name="brightness">Helligkeit</string>
+	<string name="hotspot">Hotspot</string>
+	<string name="sync">Auto-Synchronisation</string>
+	<string name="exit_click">Klicken zum Beenden</string>
+	<string name="volume_silent">Stumm</string>
+	<string name="volume_vibration">Vibration</string>
+	<string name="brightness_auto">Auto-Helligkeit</string>
+	<string name="timeout_alwayson">Immer an</string>
+    
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="m.tool"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="17" />
+    
+    <uses-feature android:name="android.hardware.nfc" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+
+<!--     <uses-permission android:name="com.android.vending.CHECK_LICENSE" /> -->
+	<uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name">
+        <activity android:label="@string/app_name" android:name=".MTOOL"
+			android:theme="@style/theme" android:screenOrientation="sensorPortrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<intent-filter>
+                <action android:name="android.intent.action.SEARCH_LONG_PRESS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+		</activity>
+		<activity android:name="com.google.ads.AdActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+<!--         <activity -->
+<!--             android:name=".MTOOL" -->
+<!--             android:label="@string/app_name" -->
+<!--             android:screenOrientation="sensorPortrait" -->
+<!--             android:theme="@style/theme"> -->
+<!--         </activity> -->
+        <activity
+            android:name=".stuff.AppWidgetConfigure"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name=".AppWidget">
+            <intent-filter >
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget" />
+        </receiver>
+        <activity android:name=".Settings" android:label="@string/app_name"/>
+        <activity android:name=".settings.pickbg" android:label="@string/custombg_pref_title"/>
+        <activity android:name=".settings.startpg" android:label="@string/startpg_pref_title" android:theme="@style/dialog"/>
+        <receiver android:name=".settings.statussc_onboot">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+		</receiver>
+        <activity android:name=".settings.statussc"/>
+        <activity android:name=".settings.info" android:label="@string/app_name" android:theme="@style/dialog"/>
+        <activity android:name=".Add" android:label="@string/AddItem" android:theme="@style/dialog"/>
+        <activity android:name=".Profiles" android:label="@string/profiles" android:theme="@style/dialog"/>
+        <activity android:name=".Quick" android:label="@string/quick" android:theme="@style/dialog"/>
+        <activity android:name=".stuff.TorchActivity" android:label="@string/torch" android:theme="@style/theme"/>
+        <service  android:name=".stuff.KeyguardService" />
+    </application>
+</manifest>

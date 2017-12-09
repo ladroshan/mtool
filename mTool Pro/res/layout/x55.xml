@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/x">
+    
+        <RelativeLayout 
+		    android:id="@+id/rlfelda"
+		    android:layout_height="match_parent"
+		    android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/felda"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+            
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targeta"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+		    android:id="@+id/rlfeldb"
+		    android:layout_height="match_parent"
+		    android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targetb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+		    android:id="@+id/rlfeldc"
+		    android:layout_height="match_parent"
+		    android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targetc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+		    android:id="@+id/rlfeldd"
+		    android:layout_height="match_parent"
+		    android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targetd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+	    <RelativeLayout 
+			android:id="@+id/rlfelde"
+		    android:layout_height="match_parent"
+		    android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/felde"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+	    <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+	    
+        <RelativeLayout 
+		    android:id="@+id/rlfeldf"
+		    android:layout_height="match_parent"
+		    android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targetf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+		    android:id="@+id/rlfeldg"
+		    android:layout_height="match_parent"
+		    android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targetg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+		    android:id="@+id/rlfeldh"
+		    android:layout_height="match_parent"
+		    android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+	    
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targeth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+	    <RelativeLayout 
+			android:id="@+id/rlfeldi"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+	    <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targeti"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+	    
+        <RelativeLayout 
+	        android:id="@+id/rlfeldj"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldj"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targetj"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+	        android:id="@+id/rlfeldk"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targetk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+	        android:id="@+id/rlfeldl"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targetl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+	        android:id="@+id/rlfeldm"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targetm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+	        android:id="@+id/rlfeldn"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targetn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+	        android:id="@+id/rlfeldo"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targeto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+	        android:id="@+id/rlfeldp"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+                
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targetp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+	        android:id="@+id/rlfeldq"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldq"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targetq"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+	        android:id="@+id/rlfeldr"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targetr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+	        android:id="@+id/rlfelds"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/felds"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targets"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+	        android:id="@+id/rlfeldt"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+                
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targett"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+	        android:id="@+id/rlfeldu"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targetu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+	        android:id="@+id/rlfeldv"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targetv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+	        android:id="@+id/rlfeldw"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldw"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+        
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targetw"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+	        android:id="@+id/rlfeldx"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldx"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+                
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targetx"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+        <RelativeLayout 
+	        android:id="@+id/rlfeldy"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    
+            <m.tool.stuff.Feld
+                android:id="@+id/feldy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+            
+		</RelativeLayout>
+                
+        <m.tool.stuff.drag_and_drop.Feld_Target
+                android:id="@+id/targety"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        
+</RelativeLayout>

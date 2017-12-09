@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="scroll_zone">20dp</dimen>
+    <dimen name="llmain_marginTop">20px</dimen>
+    <dimen name="llmain_marginBottom">10px</dimen>
+    <dimen name="llmain_marginSide">15px</dimen>
+    <dimen name="item_icon">32px</dimen>
+    <dimen name="item_status">13px</dimen>
+    <dimen name="item_padding">20px</dimen>
+    <dimen name="item_text">7sp</dimen>
+    <dimen name="item_statusPad">6px</dimen>
+</resources>

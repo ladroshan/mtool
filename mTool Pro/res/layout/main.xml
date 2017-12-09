@@ -1,0 +1,317 @@
+<m.tool.stuff.drag_and_drop.DragLayer xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drag_layer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+	<RelativeLayout
+	    android:id="@+id/rlall"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	    
+	   <ImageView 
+	        android:id="@+id/ivcustombg"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:contentDescription="@string/app_name"
+	        android:scaleType="centerCrop"/>
+	    
+	    <RelativeLayout 
+	        android:id="@+id/rltop"
+	        android:layout_width="match_parent"
+	        android:layout_height="40dp"
+	        android:layout_alignParentTop="true">
+	        
+	        <Button 
+	            android:id="@+id/bsettings"
+	            android:layout_width="56dp"
+	            android:layout_height="40dp"
+	            android:layout_alignParentLeft="true"/>
+	        
+	        <Button 
+	            android:id="@+id/badditem"
+	            android:layout_width="69dp"
+	            android:layout_height="40dp"
+	            android:layout_centerHorizontal="true"/>
+	        
+	        <m.tool.stuff.drag_and_drop.DeleteZone 
+	            android:id="@+id/delete_zone"
+	            android:layout_width="140dp"
+	            android:layout_height="40dp"
+	            android:scaleType="centerInside"
+	            android:src="@drawable/delete_zone"
+	            android:layout_centerHorizontal="true"
+	            android:visibility="gone"/>
+	        
+	        <Button 
+	            android:id="@+id/bclose"
+	            android:layout_width="56dp"
+	            android:layout_height="40dp"
+	            android:layout_alignParentRight="true"/>
+	        
+	    </RelativeLayout>
+	    
+	    <RelativeLayout
+	        android:id="@+id/rlbottom"
+	        android:layout_width="match_parent"
+	        android:layout_height="20dp"
+	        android:layout_alignParentBottom="true">
+	        
+	        <LinearLayout
+	            android:id="@+id/ivseitenl"
+	            android:layout_width="120dp"
+	            android:layout_height="12dp"
+	            android:weightSum="10"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignParentBottom="true"
+	            android:orientation="horizontal">
+	            
+	            <ImageView 
+	                android:id="@+id/ivseitenl1"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenl2"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenl3"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenl4"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenl5"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenl6"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenl7"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenl8"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenl9"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenl10"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            
+			</LinearLayout>
+	        
+	        <ImageView
+	            android:id="@+id/ivseite"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerInParent="true"
+	            android:contentDescription="@string/app_name"
+	            android:src="@drawable/i"/>
+	        
+	        <TextView 
+	            android:id="@+id/tvseite"
+	            android:textIsSelectable="false"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerInParent="true"
+	            android:textColor="#033d5f"/>
+	        
+	        <LinearLayout
+	            android:id="@+id/ivseitenr"
+	            android:layout_width="120dp"
+	            android:layout_height="12dp"
+	            android:weightSum="10"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignParentBottom="true"
+	            android:orientation="horizontal">
+	            
+	            <ImageView 
+	                android:id="@+id/ivseitenr10"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenr9"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenr8"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenr7"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenr6"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenr5"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenr4"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenr3"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenr2"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            <ImageView 
+	                android:id="@+id/ivseitenr1"
+	                android:layout_weight="1"
+		            android:layout_width="0dp"
+		            android:layout_height="match_parent"
+		            android:visibility="invisible"
+		            android:src="@drawable/i2"
+		            android:contentDescription="@string/app_name"/>
+	            
+			</LinearLayout>
+	        
+	    </RelativeLayout>
+	    
+	    <RelativeLayout
+	        android:id="@+id/rlmain"
+	        android:layout_below="@id/rltop"
+	        android:layout_above="@id/rlbottom"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="@dimen/llmain_marginTop"
+			android:layout_marginLeft="@dimen/llmain_marginSide"
+	    	android:layout_marginRight="@dimen/llmain_marginSide"
+	    	android:layout_marginBottom="@dimen/llmain_marginBottom">
+	        
+<!-- 	        <m.tool.stuff.ScrollViewPager  -->
+<!-- 	            android:id="@+id/scrollViewPager" -->
+<!-- 	            android:layout_height="match_parent" -->
+<!-- 	            android:layout_width="match_parent"></m.tool.stuff.ScrollViewPager> -->
+	        
+	        <TabHost
+			    android:id="@android:id/tabhost"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent">
+	
+				<LinearLayout
+			        android:orientation="vertical"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent">
+			        
+			        <TabWidget
+			            android:id="@android:id/tabs"
+			            android:orientation="horizontal"
+			            android:layout_width="fill_parent"
+			            android:layout_height="match_parent"
+			            android:layout_weight="0"
+			            android:visibility="gone"/>
+		
+			        <FrameLayout
+			            android:id="@android:id/tabcontent"
+			            android:layout_width="0dp"
+			            android:layout_height="0dp"
+			            android:layout_weight="0"/>
+		
+			        <m.tool.stuff.ViewPager3D
+					  	android:id="@+id/viewpager"
+					  	android:layout_width="match_parent"
+					 	android:layout_height="0dp"
+					 	android:layout_weight="1"/>
+			        
+			    </LinearLayout>
+			
+			</TabHost>
+	        
+	    </RelativeLayout>
+	
+	</RelativeLayout>
+
+</m.tool.stuff.drag_and_drop.DragLayer>

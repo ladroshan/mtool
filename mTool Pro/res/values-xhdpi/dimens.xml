@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_icon">64px</dimen>
+    <dimen name="item_status">26px</dimen>
+    <dimen name="item_padding">40px</dimen>
+    <dimen name="item_text">15sp</dimen>
+</resources>

@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView 
+        android:id="@+id/awctop"
+        android:textIsSelectable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textSize="32sp"/>
+    <View
+        android:id="@+id/awctopview"
+        android:layout_below="@id/awctop"
+		android:layout_width="match_parent"
+		android:layout_height="1dip"
+		android:layout_marginLeft="4dip"
+		android:layout_marginRight="4dip"
+		android:background="#60888888"/>
+    
+    <RelativeLayout
+        android:id="@+id/awcbottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:background="#60888888"
+            android:layout_alignParentTop="true"/>
+        <View
+            android:id="@+id/mitte"
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dip"
+            android:layout_marginTop="4dip"
+            android:background="#60888888" 
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/awcback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/mitte"
+            android:background="@drawable/button"
+            android:text="@android:string/cancel" 
+            android:layout_alignParentBottom="true"/>
+        <Button
+            android:id="@+id/awcnext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/button"
+            android:text="@android:string/ok" 
+            android:layout_alignParentBottom="true" 
+            android:layout_toRightOf="@id/mitte"/>
+    </RelativeLayout>
+    
+    <ScrollView 
+        android:id="@+id/awcsv"
+    	android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/awctopview"
+        android:layout_above="@id/awcbottom">
+	    
+	    <LinearLayout 
+		    android:id="@+id/aiitem"
+		    android:orientation="vertical"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content">
+		</LinearLayout> 
+		
+	</ScrollView> 
+	
+    <RelativeLayout 
+	    android:id="@+id/awcoption"
+	    android:layout_below="@id/awctopview"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@id/awcbottom">
+        
+        <ListView
+	        android:id="@+id/awclv"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+        
+    </RelativeLayout>
+    
+</RelativeLayout>

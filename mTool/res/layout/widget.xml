@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/awll0"
+    android:layout_marginBottom="1dp"
+    android:orientation="vertical"
+    android:background="@drawable/item_bg_dark">
+    
+    <RelativeLayout 
+        android:id="@+id/awbutton"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/item_button"
+        android:paddingTop="@dimen/item_padding">
+        
+        <ImageView 
+            android:id="@+id/awicon"
+            android:layout_centerInParent="true"
+            android:layout_width="@dimen/item_icon"
+            android:layout_height="@dimen/item_icon"
+            android:contentDescription="@string/app_name"/>
+        
+        <TextView 
+            android:id="@+id/awtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textSize="@dimen/item_text"
+            android:textColor="#ffffffff"
+            android:textIsSelectable="false"/>
+        
+        <RelativeLayout 
+            android:id="@+id/awstatus"
+            android:layout_height="@dimen/item_status"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent">
+            
+            <ImageView 
+                android:id="@+id/awstatusc"
+                android:contentDescription="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:paddingLeft="@dimen/item_statusPad"
+                android:paddingRight="@dimen/item_statusPad"/>
+            
+            <ImageView 
+                android:id="@+id/awstatusl"
+                android:contentDescription="@string/app_name"
+                android:layout_alignParentLeft="true"
+                android:layout_width="@dimen/item_statusPad"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            
+            <ImageView 
+                android:id="@+id/awstatusr"
+                android:contentDescription="@string/app_name"
+                android:layout_alignParentRight="true"
+                android:layout_width="@dimen/item_statusPad"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
